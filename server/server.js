@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Mishraji! Your Express server is running 🚀');
+  res.send('Hello! Your Express server is running 🚀');
 });
 const PORT = 3000;
 app.listen(PORT, () => {
